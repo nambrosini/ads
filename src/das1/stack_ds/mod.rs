@@ -1,7 +1,7 @@
 struct Stack<T> {
     top: i64,
     stack: Vec<T>,
-    capacity: i64
+    capacity: i64,
 }
 
 impl<T> Stack<T> {
@@ -9,7 +9,7 @@ impl<T> Stack<T> {
         Self {
             top: -1,
             stack: Vec::new(),
-            capacity: size
+            capacity: size,
         }
     }
 
